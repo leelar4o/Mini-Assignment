@@ -1,0 +1,31 @@
+.circle {
+    width: 200px; 
+    height: 200px; 
+    background-color: red;
+    border-radius: 50%; 
+    position: fixed;
+    top: 80%; 
+    left: -40px; 
+    z-index: -1;
+  }
+  
+  p{
+   font-family: 'Courgette', cursive;
+   text-indent: 50px;
+   text-wrap:pretty;
+    padding: 50px;
+    
+  }
+  
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
